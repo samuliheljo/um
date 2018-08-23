@@ -8,7 +8,8 @@ git --
 
 ## Reset local repository to same state as remote origin
 
-`git fetch origin git reset --hard origin/master`
+`git fetch origin`  
+`git reset --hard origin/master`
 
 ## Get commit counts by author
 `git shortlog -s -n`
