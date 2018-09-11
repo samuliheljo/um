@@ -17,6 +17,9 @@ git --
 ## Get commit counts by author, email
 `git shortlog -s -n -e`
 
+## Edit name of the current branch
+`git branch -m <name>`
+
 # LINKS
 
 https://github.com/git-tips/tips
