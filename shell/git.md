@@ -38,6 +38,9 @@ Source: https://gist.github.com/jasonrudolph/1810768
 ## Show what files have changed since commit for specific folder
 `git diff --name-only master {commit} {folder}`
 
+## Remove untracked files
+`git clean -n` then `git clean -f`
+
 # LINKS
 
 https://github.com/git-tips/tips
